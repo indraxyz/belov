@@ -4,4 +4,8 @@
 
 ## Tech Stack
 
+## Run Locally
+
 ## Authors
+
+## Views
