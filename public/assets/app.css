@@ -1,0 +1,138 @@
+/* home */
+.belov-jargon {
+    letter-spacing: 2rem !important;
+    font-weight: bold !important;
+    font-size: 70px !important;
+}
+
+/* footer */
+.footer {
+    background-color: #1d4d99;
+    color: white;
+}
+
+/* general */
+.layout-konten {
+    margin-top: 4em;
+    min-height: 90vh;
+}
+.soft-text {
+    opacity: 0.7;
+}
+.container-overlay {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+}
+.image-footer {
+    margin: 0 1rem;
+    width: auto !important;
+    height: 70px !important;
+}
+.bold {
+    font-weight: bold;
+}
+.font-xl {
+    font-size: 64px !important;
+}
+.image-m {
+    width: 350px;
+    height: auto;
+}
+.image-s {
+    width: 25%;
+    height: auto;
+}
+.modal-full-width {
+    width: 90% !important;
+}
+
+/* TOP NAV */
+.logo,
+.navbar-item img {
+    width: auto;
+    height: 40px;
+    max-height: 5rem;
+}
+.belov {
+    padding: 0 1em;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px !important;
+}
+.navbar {
+    height: 4.5em;
+    background-color: #1d4d99;
+}
+.navbar-item,
+.navbar-link {
+    color: white;
+    font-weight: bold;
+}
+.navbar-burger,
+.navbar-burger:hover {
+    height: 4.5em;
+    color: white;
+}
+
+/* form */
+.select select,
+.select {
+    width: 100%;
+}
+.sub-label {
+    margin-bottom: 0.5em;
+    display: block;
+}
+.sub-field {
+    margin-bottom: 1em;
+}
+
+/* login */
+.belov-login {
+    font-weight: bold;
+    font-size: 70px;
+    letter-spacing: 5px !important;
+}
+
+/* responsive */
+@media only screen and (max-width: 1024px) {
+    .underdesk-padding {
+        padding: 0 1em !important;
+    }
+    .underdesk-margin-y {
+        margin: 0.5em 0 !important;
+    }
+    .underdesk-flex-center {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .underdesk-full-width {
+        height: auto !important;
+        width: 100% !important;
+    }
+    .underdesk-medium-width {
+        height: auto !important;
+        width: 70% !important;
+    }
+    .underdesk-text-center {
+        text-align: center;
+    }
+    .image-footer {
+        width: auto !important;
+        height: 40px !important;
+        margin: 0 0.5rem !important;
+    }
+    .image-s {
+        width: 50%;
+        height: auto;
+    }
+
+    .belov-jargon {
+        letter-spacing: 1rem !important;
+        font-weight: bold !important;
+        font-size: 50px !important;
+    }
+}
+

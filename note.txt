@@ -1,0 +1,71 @@
+Development Logging / catatan progress
+
+BELUM
+------------ 
+Tampilan Mobile/ Responsive
+
+LOG Local
+------------
+db, general project prepare
+Front 
+    Umum : 
+    Home/1 , Lacak/1 , footer/1
+    Admin :
+    Login/1, Home (dashboard ringkasan) /1, Tiket (kelola)/1, Profile (kelola)/1
+    mobile navigasi /1
+    cek mobile view /1
+
+Back
+    Umum : 
+        home: form pengajuan /1
+        lacak /1
+    admin : 
+        login/1, logout/1, profil/1 
+        home: filter-tanggal(baru,proses, ditolak, selesai, total) /1
+        tiket (getAll/1 | more/1 | filter:key+option/1 | files: lihat masing2, download all-merge | detail : lihat data/1, create-download data as pdf | verifikasi Tiket: proses+ditolak+selesai/1, riwayat tiket /1, hapus tiket /1  )
+    cek fungsionalitas /1
+    UPLOAD server /1
+    registrasi domain+hosting belov baru /1
+        belov.id
+    create pdf (add images ) and download   /0
+        https://rawgit.com/MrRio/jsPDF/master/docs/index.html
+        https://react-pdf.org/
+
+DEVELOPMENT prepare
+php artisan serve                   // start laravel server
+npm run watch                       // auto reload untuk front-end
+npx babel --watch src --out-dir .   // compiled babel untuk reactJs, jalankan di folder public
+
+UPLOAD / PUBLISH SERVER
+edit index.php di public
+edit server.php di direktori utama
+ubah public_path di index.php
+tambahkan di Model
+    beri CAST
+    atur serialize date
+
+LOG Server
+------------
+
+
+
+https://www.digitalocean.com/community/tutorials/easier-datetime-in-laravel-and-php-with-carbon
+# add reactJs to existing web/page
+https://rajdeep-das.medium.com/how-to-add-react-to-an-existing-website-or-web-project-11b598f989d3
+https://www.knowledgehut.com/blog/web-development/add-react-website-steps
+https://meda.io/embed-react-into-an-html-web-page/
+
+# create PDF using FPDF
+https://www.studentstutorial.com/laravel/laravel-fpdf
+https://github.com/codedge/laravel-fpdf
+
+# merge pdf using fpdi
+https://github.com/Setasign/FPDI
+https://arjunphp.com/php-laravel-merge-pdfs/ 
+
+# terima file dari server saat ajax
+http://danml.com/download.html 
+https://pqina.nl/blog/convert-a-blob-to-a-file-with-javascript/ 
+
+EVALUASI 08 2023
+migrasi manual ke LARAVEL TERBARU
