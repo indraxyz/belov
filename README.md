@@ -1,6 +1,6 @@
 ## About
 
-sistem pengajuan/pengaduan data untuk membuat baru, diubah atau diperbarui. fitur utamanya kelola tiket (detail, attachments, verifikasi, riwayat, hapus).
+sistem pengajuan/pengaduan/koreksi data untuk membuat baru atau memperbarui. fitur utamanya kelola tiket (detail, attachments, verifikasi, riwayat, hapus).
 used tech is Laravel, mySQL, reactjs, bulmacss, babel.
 
 ## Features
