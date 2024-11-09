@@ -31,3 +31,14 @@ Home
 <img src="https://github.com/indraxyz/belov/blob/main/screenshots/home.png">
 Form Pengajuan
 <img src="https://github.com/indraxyz/belov/blob/main/screenshots/form-pengajuan.png">
+Lacak TIket
+<img src="https://github.com/indraxyz/belov/blob/main/screenshots/lacak-tiket.png">
+
+Login Admin
+<img src="https://github.com/indraxyz/belov/blob/main/screenshots/login-admin.png">
+Dashboard admin
+<img src="https://github.com/indraxyz/belov/blob/main/screenshots/dashboard-admin.png">
+Kelola Tiket
+<img src="https://github.com/indraxyz/belov/blob/main/screenshots/kelola-tiket.png">
+Profile admin
+<img src="https://github.com/indraxyz/belov/blob/main/screenshots/profile-admin.png">
