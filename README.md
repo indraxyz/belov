@@ -26,3 +26,8 @@ used tech is Laravel, mySQL, reactjs, bulmacss, babel.
 [@indraxyz](https://www.github.com/indraxyz)
 
 ## Views
+
+Home
+<img src="https://github.com/indraxyz/belov/blob/main/screenshots/home.png">
+Form Pengajuan
+<img src="https://github.com/indraxyz/belov/blob/main/screenshots/form-pengajuan.png">
